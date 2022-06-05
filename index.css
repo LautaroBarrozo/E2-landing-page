@@ -2,11 +2,10 @@ body{
     background-color: #c9c8c8;
 }
 
-.container-flex {
+.center-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .container {
@@ -55,4 +54,68 @@ body{
     background-color: #EFE5CA;
     transition: 0.7s;
 
+}
+
+.section-container{
+    margin: 5px;
+    width: 80%;
+    height: 600px;
+    background-color: #F4F4F5;
+}
+
+.slogan{
+    color: #808790;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;    
+}
+
+.section-logo-flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: 150px;
+   left: 21%;
+}
+
+.section-logo{
+    width: 60%;
+
+}
+
+.nombre-nucbacoin{
+    color: #808790;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nucbacoin{
+    margin: 23%;
+}
+
+.section-container2{
+    margin: 1px;
+    width: 80%;
+    height: 300px;
+    background-color: #F4F4F5;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    right: 25px;
+
+}
+
+.servicios-items{
+    color: #808790;
+    background-color: #EFE5CA;
+    padding: 8px 12px;
+    border-radius: 15px;
 }
