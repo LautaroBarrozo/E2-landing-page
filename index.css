@@ -65,10 +65,12 @@ body{
 
 .slogan{
     color: #808790;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px;    
+    width: 35%;
+    height: 10%;
+    position: relative;
+    left: 36%;
+    top: 10%;
+
 }
 
 .section-logo-flex{
@@ -76,55 +78,107 @@ body{
    justify-content: center;
    align-items: center;
    width: 60%;
+   height: 80%;
+   position: relative;
+   bottom: 10%;
+   right: 1%;
    
 }
 
 .section-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
     position: relative;
-    left: 300px;
-    bottom: 100px;
-}
-
-
-.section-logo{
-    width: 60%;
-
+    left: 45%;
 }
 
 .nombre-nucbacoin{
     color: #808790;
+    width: 80%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 350px;
-}
-
-.nucbacoin{
-    margin: 23%;
+    left: 12%;
+    bottom: 20%;
 }
 
 .section-container2{
     margin: 1px;
     width: 80%;
-    height: 300px;
+    height: 800px;
     background-color: #F4F4F5;
 }
 
-.servicios{
+.pregunta{
+    color: #808790;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+
+
+}
+
+
+
+.container-cards{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
-    position: relative;
-    right: 25px;
+    flex-wrap: wrap;
 
 }
 
-.servicios-items{
-    color: #808790;
-    background-color: #EFE5CA;
-    padding: 8px 12px;
+.card{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F5;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 0px 17px 2px;
 }
 
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contenido{
+    color: #808790;
+}
+
+.contenido-text{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    padding: 8px 12px;
+    background-color: #EFE5CA;
+    border-radius: 15px ;
+}
+
+.trabajo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trabajo-items{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color:#808790;
+    padding: 8px 12px;
+    background-color: #EFE5CA;
+    border-radius: 15px ;
+}
