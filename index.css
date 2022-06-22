@@ -280,6 +280,7 @@ html{
 .contacto-item{
     background-color: #EFE5CA;
     border-radius: 15px;
+    width: 100%;
     text-align: center;
     margin: 20px;
 }
